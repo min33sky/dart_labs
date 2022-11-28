@@ -1,5 +1,5 @@
 void main() {
-  print('OOP - 02');
+  print('OOP - 02. final, const');
   //? const 키워드를 사용하면, 컴파일 시점에 값을 할당해야 한다. (예: DateTime.now()는 컴파일 시점에 값을 할당할 수 없다.)
   //? const constructor를 사용하면, constructor를 호출할 때 매개변수가 같다면 같은 인스턴스가 반환된다.
 
@@ -18,7 +18,7 @@ class Idol {
   final String name;
   final List<String> members;
 
-  //? const constructor를 사용하면 Instance를 생성할 때, const를 사용할 수 있다.
+  //? const constructor를 사용하면 Instance를 생성할 때, const를 사용할 수 있다. (final 변수에만 사용할 수 있다.)
   const Idol(this.name, this.members);
 
   Idol.fromList(List values)
