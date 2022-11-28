@@ -15,6 +15,7 @@ void main() {
 }
 
 class Idol {
+  //? final 키워드를 사용하면, 값을 한 번만 할당할 수 있다.
   final String name;
   final List<String> members;
 

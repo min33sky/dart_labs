@@ -1,5 +1,5 @@
 void main() {
-  print('OOP - 01');
+  print('OOP - 01. Intro');
 
   Idol redVelvet = Idol('레드벨벳', ['슬기', '웬디', '아이린', '조이', '예리']);
   Idol twice = Idol('트와이스', [
@@ -28,14 +28,14 @@ void main() {
 }
 
 class Idol {
-  final String name;
-  final List<String> members;
+  String name;
+  List<String> members;
 
   // Idol(String name, List<String> members)
   //     : this.name = name,
   //       this.members = members;
 
-  //? 위의 코드를 아래와 같이 축약할 수 있다.
+  //? 위의 생성자 코드를 아래와 같이 축약할 수 있다.
   Idol(this.name, this.members);
 
   //? Named Constructor를 사용해서도 Instance를 생성할 수 있다.
