@@ -50,7 +50,8 @@ class Member {
     required this.group,
   });
 
-  //? toString()을 오버라이딩해서 사용하면 좋다. (기본 출력값: Instance of 'Member')
+  //? toString()을 오버라이딩해서 사용하면 좋다.
+  //? (기본 출력값: Instance of 'Member')
   @override
   String toString() {
     return 'Member(name: $name, group: $group)';
